@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+
+        
+    
+<!--popper-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<!--bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+    
+    <script src=""></script>
+    
+<!--font awesome :: CDN-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<link rel="stylesheet" href="recursos/css/basico.css">
+</head>
+<body>
+
+<!--barra superior,uso la etiqueta html 5 header-->
+<header id="barrasuperior" class="container-fluid">
+    <div class="row"></div>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark row">
+        <a href="#" class="navbar-brand col-md-2">
+            <img src="recursos/imagenes/images/sanJuanMod.jpg" 
+            alt="" class="img-fluid rounded-circle">
+            <span> Nuestras Playas</span>
+        </a>
+        
+        <ul class="navbar nav col-md-9 flex-row justify-content-end">
+          <l class="navbar-item"> 
+              <a href="#" class="nav-link">home <i class="fas fa-home"></i></a></li>
+          <li class="nav-item"> 
+              <a href="#" class="nav-link">contact <i class="far fa-id-card"></i></a></li>
+        </ul>
+    </nav>
+</div>
+</header>
+<!--contenido-->
+<section id="principal" class="d-flex flex-row">
+    <!--menu lateral-->
+    <article id="lateral" class="bg-dark">
+        <nav class="navbar flex-column mx-3">
+            <ul class="navbar nav flex-column">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">playas</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">lagos</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">lagunas</a>
+
+                </li>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">otros</a>
+
+            </li>
+            
+        </ul>
+        </nav>
+
+                </article>
+                <main id="central" 
+                class="d-flex flex-colum justify-content-center">
+                    <header id="banner">
+                        <h2 class="h2 my-2 py-2 shadow text-capitalize text-danger">
+                            Las exòticas playas de nicaragua
+                        </h2>
+                    </header>
+                    <section id="contenido">
+                        <article class="d-flex flex row">
+                        <div class="jumbotrom shadow mx-3">
+                            <h3>
+                                playas del pacìfico
+                            </h3>
+                            <p>alguna descripciòn breve</p>
+                            <a href="#" class="btn btn-outline-primary">...</a>
+
+                        </div>
+                        <div class="jumbotrom shadow mx-3">
+                            <h3>
+                                playas del àtlantico
+                            </h3>
+                            <span>comentarios sobre las playas</span>
+                            <a href="#" class="btn btn-outline-dark">...</a>
+
+                        </div>
+                        <div class="jumbotrom shadow mx-3">
+                            <h3>
+                                lagos y lagunas
+                            </h3>
+                            <span>comentarios sobre los lagos</span>
+                            <a href="#" class="btn btn-outline-danger">...</a>
+
+                        </div>
+                    </article>
+                    <article>
+                        <!--acordion bootstrap-->
+
+                        <!--tabla bootstrap-->
+                        <div class="table responsive">
+                            <table class="table table-striped table-hover">
+                                
+                                    <tbody>
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                regiòn 
+                                            </th>
+                                            <th>
+                                                playas
+                                            </th>
+                                        </tr>
+                                    
+                                </thead>
+                            </tbody>
+                            <tr>
+                                <td>atlantico</td>
+                                <td>little corn island</td>
+                            </tr>
+                            <tr>
+                                <td>lago</td><td>cocibolca</td>
+                            </tr>
+                            <tbody>
+                                
+                            </tbody>
+                            
+                            </table>
+
+                        </div>
+                    </article>
+
+        </section>
+        <footer id="piepag">
+
+        </footer>
+
+    </main>
+
+</section>
+
+    
+</body>
+</html>
